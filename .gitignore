@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local operational data (never commit real production records)
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite3-journal
+*.bak
+backups/
+exports/
+*.log
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# Private planning documents and internal prompts
+planning/
+master_prompt.md
+project_explanation.md
+app_workflow.md
+technical_specification.md
+app_theme.md
+testing_requirements.md
+*.docx
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

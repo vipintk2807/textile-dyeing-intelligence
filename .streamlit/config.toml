@@ -1,0 +1,19 @@
+# Streamlit configuration for Textile Dyeing Intelligence.
+# Local use only: the server listens on localhost and sends no usage statistics.
+
+[server]
+address = "localhost"
+headless = false
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+# Light base with deep navy primary colour and muted teal links.
+# Colours are a design choice, not an industry standard (see docs/app_theme notes in README).
+base = "light"
+primaryColor = "#1F3A5F"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#EEF2F6"
+textColor = "#1B2430"
+linkColor = "#1F6F78"
